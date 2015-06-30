@@ -124,7 +124,7 @@ typedef NS_ENUM(NSUInteger, segmentControl) {
     [self.debugLabel setText:@"TAAE starting"];
 
     // we run update in case OpenEars changed something TAAE didn't expect to change under its feet
-//    [self.aeAudioController updateWithAudioDescription:[AEAudioController nonInterleaved16BitStereoAudioDescription] inputEnabled:YES useVoiceProcessing:NO outputEnabled:NO];
+    [self.aeAudioController updateWithAudioDescription:[AEAudioController nonInterleaved16BitStereoAudioDescription] inputEnabled:YES useVoiceProcessing:NO outputEnabled:NO];
     
     NSAssert(self.aeAudioController, @"Could not start/update AEAudioController");
     
