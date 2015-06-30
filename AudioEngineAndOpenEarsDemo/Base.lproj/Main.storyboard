@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A204h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STATUS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pDG-Pt-dXL">
+                                <rect key="frame" x="278" y="507" width="44" height="14"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OpenEars" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSS-SO-Tlf">
+                                <rect key="frame" x="273" y="120" width="54" height="14"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TAAE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2YF-K3-n2O">
+                                <rect key="frame" x="286" y="223" width="29" height="14"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pCD-Th-uEm">
+                                <rect key="frame" x="279" y="529" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Nf0-lu-ixH">
+                                <rect key="frame" x="276" y="142" width="51" height="31"/>
+                                <animations/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="QbT-f6-5yj">
+                                <rect key="frame" x="276" y="245" width="51" height="31"/>
+                                <animations/>
+                            </switch>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pCD-Th-uEm" firstAttribute="top" secondItem="pDG-Pt-dXL" secondAttribute="bottom" constant="8" id="2uy-CN-bCW"/>
+                            <constraint firstAttribute="centerX" secondItem="pDG-Pt-dXL" secondAttribute="centerX" id="8DE-xW-Mfh"/>
+                            <constraint firstItem="DSS-SO-Tlf" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="100" id="DdY-O6-asA"/>
+                            <constraint firstItem="QbT-f6-5yj" firstAttribute="top" secondItem="2YF-K3-n2O" secondAttribute="bottom" constant="8" id="FFc-jG-PRc"/>
+                            <constraint firstAttribute="centerX" secondItem="DSS-SO-Tlf" secondAttribute="centerX" id="KfQ-7w-d2Y"/>
+                            <constraint firstAttribute="centerX" secondItem="QbT-f6-5yj" secondAttribute="centerX" id="MpM-wW-8Ku"/>
+                            <constraint firstItem="2YF-K3-n2O" firstAttribute="top" secondItem="Nf0-lu-ixH" secondAttribute="bottom" constant="50" id="gUN-ey-1Lh"/>
+                            <constraint firstAttribute="centerX" secondItem="2YF-K3-n2O" secondAttribute="centerX" id="ieo-oe-ZK3"/>
+                            <constraint firstAttribute="centerX" secondItem="Nf0-lu-ixH" secondAttribute="centerX" id="jqe-fZ-MZy"/>
+                            <constraint firstItem="Nf0-lu-ixH" firstAttribute="top" secondItem="DSS-SO-Tlf" secondAttribute="bottom" constant="8" id="s4L-S1-53h"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="pCD-Th-uEm" secondAttribute="bottom" constant="50" id="tkb-wb-cdC"/>
+                            <constraint firstAttribute="centerX" secondItem="pCD-Th-uEm" secondAttribute="centerX" id="xhF-gX-NGs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="audioEngineSwitch" destination="QbT-f6-5yj" id="Yc1-M8-0VN"/>
+                        <outlet property="debugLabel" destination="pCD-Th-uEm" id="7P3-FC-hNn"/>
+                        <outlet property="openEarsSwitch" destination="Nf0-lu-ixH" id="Rsw-MF-8Y0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
